@@ -25,6 +25,7 @@
 #include <iostream>
 #include "Term.h"
 #include "ECString.h"
+#include <cstring>
 
 char* 	suffixes[] = {
 "'VE",

@@ -1,6 +1,8 @@
 
 #include <iostream>
 #include <sstream>
+#include <cstring>
+#include <cstdlib>
 
 #include "Argument.h"
 #include "Exception.h"

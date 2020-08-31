@@ -27,6 +27,8 @@
 #include "ECString.h"
 #include <assert.h>
 #include <stdio.h>
+#include <cstring>
+#include <cstdlib>
 
 void
 error( const char *s )

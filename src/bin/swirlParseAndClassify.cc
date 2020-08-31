@@ -13,6 +13,7 @@
 #include "Logger.h"
 #include "Swirl.h"
 #include "Oracle.h"
+#include <cstring>
  
 using namespace std;
 using namespace srl;

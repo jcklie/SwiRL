@@ -24,6 +24,7 @@
 #include "ChartBase.h"
 #include <math.h>
 #include "GotIter.h"
+#include <cstring>
 
 const double ChartBase::badParse = -1.0L;
 int ChartBase::ruleiCountTimeout_ = 360000;

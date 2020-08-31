@@ -24,6 +24,7 @@
 #include "FeatureTree.h"
 #include "ECString.h"
 #include <set>
+#include <cstdlib>
 
 FeatureTree* FeatureTree::roots_[20];
 

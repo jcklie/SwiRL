@@ -1,5 +1,6 @@
 
 #include <stdlib.h>
+#include <cstring>
 
 #include "Parameters.h"
 

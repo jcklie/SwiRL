@@ -21,6 +21,7 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
+#include <cstring>
 #include "Bchart.h"
 #include "Feature.h"
 #include "FeatureTree.h"
@@ -552,7 +553,8 @@ pHypgt(const ECString& shU, int t)
 {
   //return 1.0  //ADD to IGNORE hypenization for unknown words
   bool hyp = false;
-  char* hyppos =  strpbrk(shU.c_str(), "-");
+  char* s = strdup(shU.c_str());
+  char* hyppos =  strpbrk(s, "-");
   if(hyppos) hyp = true;
   double phyp = pHhypgt(t);  
   return hyp ? phyp : (1 - phyp);

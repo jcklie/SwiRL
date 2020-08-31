@@ -9,6 +9,7 @@
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
+#include <cstring>
 
 /*------------------------------------------------------------------------------*\
  *      Class parameters                                                        *

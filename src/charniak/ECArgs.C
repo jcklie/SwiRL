@@ -26,6 +26,7 @@
 #include <stdio.h>
 #include <iostream>
 #include "utils.h"
+#include <algorithm>
 
 ECArgs::
 ECArgs(int argc, char *argv[])
